@@ -2,8 +2,6 @@
 
 A modular, LLM-driven engine for **scenario exploration** of how scientific fields might evolve.
 
-> *Not a prediction tool — a structured brainstorming engine at civilizational scale.*
-
 ---
 
 ## Quickstart
@@ -191,9 +189,6 @@ The applied school mostly built deployment infrastructure on top of whatever the
 
 ## Notes on design
 
-- **Contamination**: LLMs already "know" real science, so scenarios are plausible
-  alternatives rather than genuine predictions. This is a feature, not a bug —
-  treat outputs as structured thought experiments.
 - **Reproducibility**: Runs are non-deterministic by design. Same config → different
   scenario each time. Use `wildcard=0` and temperature-0 models for more stable outputs.
 - **Cost**: Each paper costs ~1 LLM call. A 5-timestep × 3-papers run = ~15-20 calls
