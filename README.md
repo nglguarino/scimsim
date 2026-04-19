@@ -134,20 +134,50 @@ cfg = SimulationConfig(
 )
 ```
 
-**Selected papers from the simulated corpus:**
+**Full simulation output:**
 
-| Year | School | Title | Impact |
-|------|--------|-------|--------|
-| 2025 | theoretical | On the Expressivity-Generalization Gap in Scaled Transformers: An Information-Theoretic Critique of Cross-Domain Reasoning Claims | 5.13 |
-| 2025 | challenger | Memorization Masquerading as Reasoning: An Empirical Audit of Cross-Domain Benchmarks via Training Data Attribution | 5.54 |
-| 2025 | dominant | Process-Level Supervision for Robust Cross-Domain Reasoning: Beyond Outcome-Based Contamination | 5.92 |
-| 2026 | applied | ClinicalCLEAN-RAG: Provenance-Aware Retrieval-Augmented Medical QA with Process-Level Verification | 6.15 |
-| 2026 | challenger | Process Supervision as Laundered Memorization: Auditing PROCEED-Style Trace Training for Provenance Leakage | 5.84 |
-| 2027 | dominant | Interpretable Process Supervision under GI-PROCEED: Mechanistic Audits of Causal-Structural Reasoning Circuits at Scale | 6.36 |
-| 2027 | applied | Latency-Aware Circuit-Gated Inference: Deploying CG-RLHF Agents under Real-Time Clinical Constraints | 6.22 |
-| 2028 | dominant | Circuit Libraries Are Not Enough: Temporal-Strategic Reasoning Gaps and the Case for Second-Generation GI-PROCEED | 6.47 |
-| 2029 | applied | CG-SERVE-Federated: Small-Lab Circuit Auditing and Site-Specific Library Extension for Clinical RAG under Commodity Compute | 6.78 |
-| 2029 | challenger | Independently Universal or Independently Contaminated? A Pretraining-Provenance Audit of the 41-Feature Causal Core | 5.92 |
+```
+👥 Generating 12 researchers...
+   • Daniel Kaufman [dominant] — scaling laws, emergent capabilities
+   • Wei-Lin Chen [dominant] — chain-of-thought reasoning, instruction tuning
+   • Priya Venkatesan [dominant] — multi-task generalization, pretraining data curation
+   • Aleksandr Volkov [dominant] — mixture-of-experts, efficient inference
+   • Sofia Marchetti [dominant] — in-context learning, prompt engineering
+   • Ngozi Adebayo [challenger] — compositional generalization critique, symbolic-neural hybrids
+   • Finn O'Sullivan [challenger] — stochastic parrots debate, memorization vs reasoning
+   • Rajesh Krishnamurthy [applied] — MMLU benchmarks, code generation
+   • Emma Thorsen [applied] — medical QA systems, RAG pipelines
+   • Carlos Mendoza [applied] — agent frameworks, tool use
+   • Yuki Tanaka [applied] — legal reasoning evaluation, multilingual benchmarks
+   • Hannah Liebermann [theoretical] — learning theory, expressivity of transformers
+
+── Year 2025 ──
+  📄 [theoretical] On the Expressivity-Generalization Gap in Scaled Transformers: An Information-Theoretic Critique of Cross-Domain Reasoning Claims  (impact 5.13)
+  📄 [challenger]  Memorization Masquerading as Reasoning: An Empirical Audit of Cross-Domain Benchmarks via Training Data Attribution  (impact 5.54)
+  📄 [dominant]    Process-Level Supervision for Robust Cross-Domain Reasoning: Beyond Outcome-Based Contamination  (impact 5.92)
+
+── Year 2026 ──
+  📄 [applied]     ClinicalCLEAN-RAG: Provenance-Aware Retrieval-Augmented Medical QA with Process-Level Verification  (impact 6.15)
+  📄 [challenger]  Process Supervision as Laundered Memorization: Auditing PROCEED-Style Trace Training for Provenance Leakage  (impact 5.84)
+  📄 [dominant]    Generator-Independent Process Supervision: Closing the Trace Leakage Gap with Causal-Structural Trace Synthesis  (impact 5.47)
+
+── Year 2027 ── ⚡ SHOCK: A major safety incident involving a deployed LLM causes public backlash and forces the community to prioritize alignment and interpretability research.
+  📄 [dominant]    Interpretable Process Supervision under GI-PROCEED: Mechanistic Audits of Causal-Structural Reasoning Circuits at Scale  (impact 6.36)
+  📄 [dominant]    Circuit-Gated RLHF: From Behavioral Rewards to Mechanistic Reward Models for Safety-Critical Reasoning  (impact 5.58)
+  📄 [applied]     Latency-Aware Circuit-Gated Inference: Deploying CG-RLHF Agents under Real-Time Clinical Constraints  (impact 6.22)
+
+  🔍 Coherence check: The trajectory is coherent and well-structured: it traces a plausible dialectic from scaling-based reasoning claims, through contamination/memorization critiques, to process supervision, trace-leakage audits, and mechanistic/circuit-level reward modeling with clinical deployment.
+
+── Year 2028 ──
+  📄 [dominant]    Circuit Universality Across Scale and Modality: Transferable Causal Subnetworks as a Foundation for Portable Alignment  (impact 5.99)
+  📄 [dominant]    Circuit Libraries Are Not Enough: Temporal-Strategic Reasoning Gaps and the Case for Second-Generation GI-PROCEED  (impact 6.47)
+  📄 [applied]     CG-SERVE-2: Incremental Circuit Verification for Tool-Using Agents with Expanding Circuit Libraries  (impact 6.18)
+
+── Year 2029 ── ⚡ SHOCK: Compute costs drop 10x due to new hardware. Small labs can now run experiments previously only possible at frontier labs.
+  📄 [applied]     CG-SERVE-Federated: Small-Lab Circuit Auditing and Site-Specific Library Extension for Clinical RAG under Commodity Compute  (impact 6.78)
+  📄 [dominant]    The Universality Test at 10x Compute: Adversarial Cross-Site Replication of the 70-Feature Aligned-Circuit Library  (impact 6.48)
+  📄 [challenger]  Independently Universal or Independently Contaminated? A Pretraining-Provenance Audit of the 41-Feature Causal Core  (impact 5.92)
+```
 
 **What the simulation produced:**
 
